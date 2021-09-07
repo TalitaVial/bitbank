@@ -6,6 +6,7 @@ export class contaCorrente {
   set cliente(novoCliente){
     if (novoCliente instanceof cliente){
       this._cliente = novoCliente;
+      //verificação de instância 
     }
   }
 
@@ -13,11 +14,17 @@ export class contaCorrente {
     return this._cliente;
   }
 
-  _saldo = 0;
-
   get saldo(){
     return this._saldo;
   }
+
+  constructor(agencia, cliente){
+    this.agencia = agencia;
+    this.cliente = cliente; //aqui dentro pode usar os acessores que temos na classe, nesse caso ele faz a verificação antes
+  }
+
+
+  _saldo = 0;
 
   sacar(valor){
     if(this._saldo >= valor){
