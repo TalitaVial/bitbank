@@ -1,5 +1,6 @@
 import { cliente } from "./Cliente.js";
 export class contaCorrente {
+  static numeroDeContas = 0; //atributo estático 
   agencia;
   _cliente;
 
@@ -21,7 +22,10 @@ export class contaCorrente {
   constructor(agencia, cliente){
     this.agencia = agencia;
     this.cliente = cliente; //aqui dentro pode usar os acessores que temos na classe, nesse caso ele faz a verificação antes
+    contaCorrente.numeroDeContas += 1;
   }
+
+
 
 
   _saldo = 0;
