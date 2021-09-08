@@ -23,7 +23,6 @@
 ![contas](https://github.com/TalitaVial/bitebank/blob/master/assets/tela%20de%20contas%20bitebank.png)
 
 ## Tela de Transações BiteBank: 
-![transações](## Home BiteBank: 
 ![home](https://github.com/TalitaVial/bitebank/blob/master/assets/tela%20de%20index%20bitebank.png))
 
 ## Projeto Rodando no terminal: 
