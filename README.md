@@ -11,4 +11,24 @@
   - realizar 'saques';
   - realizar 'transferências' entre contas;
   - realizar 'depositos';
+
+# Funcionalidades: 
+## Home BiteBank: 
+![home](https://github.com/TalitaVial/bitebank/blob/master/assets/tela%20de%20index%20bitebank.png)
+
+## Tela de clientes BiteBank: 
+![clientes](https://github.com/TalitaVial/bitebank/blob/master/assets/tela%20de%20cliente%20bitebank.png)
+
+## Tela de contas BiteBank: 
+![contas](https://github.com/TalitaVial/bitebank/blob/master/assets/tela%20de%20contas%20bitebank.png)
+
+## Tela de Transações BiteBank: 
+![transações](## Home BiteBank: 
+![home](https://github.com/TalitaVial/bitebank/blob/master/assets/tela%20de%20index%20bitebank.png))
+
+## Projeto Rodando no terminal: 
+![terminal](https://github.com/TalitaVial/bitebank/blob/master/assets/power%20shell.png)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) e for details.
   
