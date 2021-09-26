@@ -3,7 +3,7 @@
 
 ### Desenvolvido nas aulas de javaScript da ALURA
 
-# Tecnologias Ultilizadas: 
+#  🚀 Tecnologias Ultilizadas: 
 ![Badge](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=ghost)
 
 # Recursos: 
@@ -28,6 +28,6 @@
 ## Projeto Rodando no terminal: 
 ![terminal](https://github.com/TalitaVial/bitebank/blob/master/assets/power%20shell.png)
 
-## License
+## :memo: License
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) e for details.
   
