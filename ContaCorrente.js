@@ -1,9 +1,6 @@
 import { cliente } from "./Cliente.js";
 export class contaCorrente {
   static numeroDeContas = 0; //atributo estático 
-  agencia;
-  _cliente;
-
   set cliente(novoCliente){
     if (novoCliente instanceof cliente){
       this._cliente = novoCliente;
@@ -21,14 +18,12 @@ export class contaCorrente {
 
   constructor(agencia, cliente){
     this.agencia = agencia;
-    this.cliente = cliente; //aqui dentro pode usar os acessores que temos na classe, nesse caso ele faz a verificação antes
+    this.cliente = cliente;
+    this._saldo = 0; //aqui dentro pode usar os acessores que temos na classe, nesse caso ele faz a verificação antes
     contaCorrente.numeroDeContas += 1;
   }
 
 
-
-
-  _saldo = 0;
 
   sacar(valor){
     if(this._saldo >= valor){
