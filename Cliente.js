@@ -4,8 +4,8 @@ export class cliente {
   }
 
   constructor(nome, cpf){ // construtores são para inicializar os atributos 
-    this.nome = nome 
-    this._cpf = cpf
+    this.nome = nome;
+    this._cpf = cpf;
   }
 
 }
